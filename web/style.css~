@@ -1,0 +1,129 @@
+body {
+    font-family:arial,helvetica,sans-serif;
+    font-size:13px;
+    background-color:#eee;
+    background-image: url("woodbackgroundlight.JPG")
+}
+
+#wrapper {
+    width:1000px;
+    margin:0px auto;
+    border:1px solid #bbb;
+    padding:10px;
+    /* background-color:#FFD8B0; */
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #EFC173 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #EFC173 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #EFC173 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #EFC173));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #EFC173 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #EFC173 100%);
+}
+
+#header {
+    border:1px solid #bbb;
+    height:80px;
+    padding:10px;
+}
+#content {
+    margin-top:10px;
+    padding-bottom:10px;
+}
+#content div {
+    padding:10px;
+    border:0px solid #bbb;
+    float:left;
+}
+#content-left {
+    width:250px;
+}
+#content-main {
+    margin-left:10px;
+    width:530px;
+    text-align:justify;
+}
+#content-right {
+    margin-top: 10px;
+    margin-left:10px;
+    width:124px;
+}
+#footer {
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    border:1px solid #bbb;
+    width:978px;
+}
+#bottom {
+    clear:both;
+    text-align:right;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.centre {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.left {
+    display: block;
+    margin-left:0;
+    margin-right:auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.right {
+    display: block;
+    margin-left:auto;
+    margin-right:0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.banner {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.one:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #B40404;
+    width: 250px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a.one:hover, a:active {
+    background-color: #8A2908;
+}
+
+ul.one {
+    list-style-type : none;
+    margin: 0;
+    padding: 0;
+}
