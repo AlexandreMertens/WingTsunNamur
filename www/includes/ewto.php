@@ -1,5 +1,5 @@
-<div id="header">
+<div id="top-header">
 <!--<img class="banner" src="WT.gif">-->
-    <img class="left_header" src="figures/WingTsunNamur.png" alt="Banner">
+    <img class="top-right" src="figures/ewto-logo.png">
     <!--<img class="banner" src="ewto-logo.png">-->
 </div>
