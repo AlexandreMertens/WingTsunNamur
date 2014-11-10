@@ -1,18 +1,13 @@
 <!Doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 </head>
 
 <body>
 <div id="wrapper" style="background-color:#aaa;">
-
-
-  <?php include("includes/ewto.php"); ?>
-<!--  <?php include("includes/contact.php"); ?> -->
   <?php include("includes/header.php"); ?>
-  <?php include("includes/nav.php"); ?>
 <div id="content">
   <div id="content-main">
 

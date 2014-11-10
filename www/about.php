@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 </head>
 
@@ -9,11 +9,7 @@
 
 <div id="wrapper" style="background-color:#aaa;">
 
-  <?php include("includes/ewto.php"); ?>
-<!--  <?php include("includes/contact.php"); ?> -->
   <?php include("includes/header.php"); ?>
-  <?php include("includes/nav.php"); ?>
-
   <div id="content">
     <div id="content-main">
 	<h1>L'équipe</h1>
@@ -21,7 +17,7 @@
                     <h2>Sifu Rudi Vaneetvelde</h2>
                   </p>
                   <p>
-<img style="float: right; margin: 0px 0px 15px 15px;" src="./figures/rudi.jpg" width="200" />
+<img style="float: right; margin: 0px 0px 15px 15px;" src="./pics/rudi.jpg" width="200" />
 Après plusieurs années de pratique quotidienne de boxe thaïlandaise, kick boxing et boxe anglaise, j'ai fait la connaissance du Wing Tsun.
 Cherchant depuis longtemps un système de combat permettant de se défendre efficacement contre plus " fort " et plus " agressif " que soi, le Wing Tsun mit fin à mes attentes.
 Passionné d'arts martiaux et d'efficacité, je n'hésitais pas à me rendre quatre fois semaine en Allemagne pour apprendre le système de combat.

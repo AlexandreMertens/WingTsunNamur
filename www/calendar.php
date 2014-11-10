@@ -1,18 +1,14 @@
 <!Doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 </head>
 
 <body>
 
 <div id="wrapper" style="background-color:#aaa;">
-  <?php include("includes/ewto.php"); ?>
-<!--  <?php include("includes/contact.php"); ?> -->
   <?php include("includes/header.php"); ?>
-  <?php include("includes/nav.php"); ?>
-
 <div id="content">
 		<div id="content-main">
 		  <h2>Horaire</h2>
@@ -33,7 +29,7 @@
                   </ul>
                   <p>L'assurance :</p> 
 		  <ul>   
-                    <li> 40€ </li>
+                    <li> 40€ / an </li>
                   </ul>
 		  <h2>L'agenda</h2>
 		  <iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=0u5bil15fakcbapb1mugss53t4%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FBrussels" style=" border-width:0 " width="530" height="600" frameborder="0" scrolling="no"></iframe>

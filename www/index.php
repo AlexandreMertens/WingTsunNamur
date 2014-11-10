@@ -1,46 +1,71 @@
 <!Doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style_news.css">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
+  <script src="js/vertical.news.slider.js"></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1965499-1']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 
 <body>
 
 <div id="wrapper" style="background-color:#aaa;">
-
-  <?php include("includes/ewto.php"); ?>
-<!--  <?php include("includes/contact.php"); ?> -->
   <?php include("includes/header.php"); ?>
-  <?php include("includes/nav.php"); ?>
-
+  
 <div id="content">
   <div id="content-main">
 	<p>L'école de Wing Tsun et d'escrima de Namur a été créée en 2001. L'enseignement est dispensé par Sifu Rudi Vaneetvelde qui est aujourd'hui le pratiquant le plus haut gradé en wallonie. </p>
 
 	<h2>Actualités</h2>
-	<div id="event">
-                <iframe style="float: left; margin: 0px 15px 0px 0px;" width=200px src="http://www.youtube.com/embed/lFuQdoXX_gg">
-		</iframe> 
-                <p><i>wing-tsun</i></p>
-                <h3> 27 Décembre: Stage Siu-Nim-Tao </h3>
-                <p> Stage organisé par Sifu Rudi Vaneetvelde. Le stage portera sur les applications en combat des mouvements de la forme, en commençant par la fin. </p>
-        </div>
 
-	<h2>News</h2>
 
-        <div id="event">
-	  	<img style="float: left; margin: 0px 15px 0px 0px;" src="./figures/Grece.jpg" width=200px /> 
-	 	<p><i>wing-tsun et chi-kung</i></p>
-                <h3> Septembre: Stage en Grèce avec Sifu Michael Schwarz </h3>
-                <p> Stage organisé par Sifu Michael Schwarz (7e grade Maître et entraineur national de la Belgique francophone et du Luxembourg) en Grèce. Sept jours d'entrainement et de vacances au bord de la mer Égée. </p>
-        </div>
-	<div id="event">
-		<img style="float: left; margin: 0px 15px 0px 0px;" src="./figures/photo1.jpg" width= 200px />
-		 <p><i>wing-tsun</i></p>
-		<h3> 18 mai: Séminaire/Passage de grade avec Sifu Michael Schwarz </h3>
-		<p> Séminaire par Sifu Michael Schwarz (7e grade Maître et entraineur national de la Belgique francophone et du Luxembourg) du 18 mai. Six heures d'entrainement sous un soleil de plomb. </p>
-	</div>
+	<div class="news-holder cf">
+
+	  <ul class="news-headlines">
+	    <li class="selected">Stage de Siu-Nim-Tao</li>
+	    <li>Stage de Wing Tsun et Qi Gong en Grèce</li>
+	    <li>Séminaire en présence de Sifu Schwarz</li>
+	    <!-- li.highlight gets inserted here -->
+	  </ul>
+	  
+	  <div class="news-preview">
+	    
+	    <div class="news-content top-content">
+              <img src="./pics/ip_man_snt.jpg">
+              <p><a href="#">Stage de Siu-Nim-Tao</a></p>
+              <p>Sifu Rudi Vannetvelde explique un les applications des mouvements de la première forme Siu-Nim-Tao le 27 Décembre 2014. </p>
+	    </div><!-- .news-content -->
+	    
+	    <div class="news-content">
+              <img src="./pics/Grece.jpg">
+              <p><a href="#">Stage de Wing Tsun et Qi Gong en Grèce</a></p>
+              <p>Les élèves des clubs de Namur et Puttlingen profitent d'un stage d'une semaine en présence sous la direction de Sifu Michael Schwarz dans le péloponnèse.</p>
+	    </div><!-- .news-content -->
+	    
+	    <div class="news-content">
+              <img src="./pics/mai2014.jpg">
+              <p><a href="#">Séminaire et passage de grade </a></p>
+	      
+              <p>Séminaire sous la direction de Sifu Michael Schwarz (7e grade Maître) le 18 mai 2014. Six heures d'entrainement sous un soleil de plomb.</p>
+	    </div><!-- .news-content -->
+	    
+	  </div><!-- .news-preview -->
+	  
+	</div><!-- .news-holder -->
+	  
   </div>
   <?php include("includes/agenda.php"); ?>
 </div>
