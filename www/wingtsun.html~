@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wing Tsun & Escrima Namur</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" Rel="stylesheet">
+    <script src="./test_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Le Club <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+		<li><a href="about.html">Informations Générales</a></li>
+		<li><a href="instructors.html">Les Instructeurs</a></li>
+		<li><a href="calendar.html">Calendrier</a></li>
+	      </ul>
+	    <li class="active"><a href="wingtsun.html">Le Wing Tsun</a></li>
+	    <li><a href="escrima.html">L'Escrima</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="links.html">Liens</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>      
+          <div class="row">
+            <div class="col-md-12">
+	      <h1>Les Origines :</h1>
+	      <div class="col-md-4" style="padding:5px"><img src="ressources/ip_man.jpg" class="img-responsive"></div>
+	      <p>
+		Le Wing Tsun fut mis au point en Chine, il y a plus de 250 ans, par une nonne du temple de Shaolin.
+	      </p>
+	      <p>
+		Cette femme du nom de <i>Ng-Mui</i>, cherchait un nouveau système permettant à des personnes physiquement moins fortes de pouvoir se défendre avec succès face à des adversaires masculins.
+		Cette technique de défense devint rapidement populaire en Chine notamment grâce à sa première élève <i>Yim Win Tsun</i> : se traduisant par " joli printemps ".
+		La technique / Application :
+	      </p>
+	      <p>
+		Le WingTsun n'est pas un sport de combat mais un système qui permet de se défendre et de préparer le pratiquant aux conditions d'un combat réel.
+	      </p>
+	      <p>
+		Inventé par une femme, le WingTsun ne nécessite pas beaucoup de force musculaire ni d'aptitudes acrobatiques afin de vaincre son adversaire.
+	      </p>
+	      <p>
+		La force de l'adversaire est absorbée pour ensuite être retournée contre lui.
+	      </p>
+	      <p>
+		Plusieurs groupes d'intervention ont choisi le WingTsun, démontrant ainsi l'efficacité du système.
+	      </p>
+	      <p>
+		Le WingTsun est, ou a été enseigné dans les programmes d'instruction de différents groupes d'intervention tels que le GSG9 et SEK en Allemagne, le RAID français, NOCS italien, l’unité anti-terroriste bulgare, le GIP luxembourgeois ainsi qu'au « Hostage Rescue Team » du FBI aux USA.
+	      </p>
+	      
+	      <p>
+		Ces groupes ont tous reconnu l'efficacité et la puissance de cet art de combat.
+	      </p>
+	      
+	      <h1>Blitzdefence :</h1>
+	      <p>
+		C'est du WingTsun, plus précisément un programme de WingTsun hautement spécialisé, conçu pour l'auto-défense pure et pour répondre aux exigences du droit en matière de légitime défense.
+	      </p>
+	      <p>
+		Apprendre à gérer sa peur, faire diversion, utiliser le langage du corps, se mettre en condition mentale, dissimuler que l'on est prêt à se défendre, tous ces éléments font partie intégrante de ce programme de WingTsun.
+	      </p>
+	      <p>
+		En WingTsun, on s'entraîne à ce qui se passe réellement, tous les jours, dans les parkings, dans la rue et dans les discothèques.
+	      </p>
+	      <p>
+		L'auto-défense réelle n'est pas un problème purement technique car il ne s'agit pas seulement de sauver sa peau mais également de prouver sa défense légitime devant un tribunal.
+	      </p>
+	      <p>
+		La Blitzdefence apprend quel comportement adopter en cas d’altercation et de montrer à la personne (homme ou femme) comment faire pour montrer, prouver que l'on est agressé et pour pouvoir justifier la proportionnalité de notre défense par la suite.
+	      </p>
+	      <p>
+		La Blitzdefence, ce sont des mouvements du pur WingTsun mais appliqués, adaptés à la réalité de terrain.
+	      </p>
+	      
+	      <h1>Le Wing Tsun et les femmes :</h1>
+	      <p>
+		Le WingTsun est un art martial idéal pour l'auto-défense des femmes car il n'est pas basé sur la force physique.
+		L'enseignement du WingTsun s'effectue en groupes mixtes afin de familiariser les femmes dès le début avec une situation où la force de l'agresseur est supérieure. Chaque nouvelle technique est expliquée en détail et l'entraînement prend en considération la condition physique de chaque personne.
+		A travers des répétitions fréquentes en groupes et avec des partenaires différents, les réactions de défense deviennent de plus en plus naturelles et vont permettre une défense spontanée et efficace.
+	      </p>
+	      
+	      
+	      <h1>Le Wing Tsun et les enfants :</h1>
+	      
+	      <p>
+		Comme le WingTsun est un art martial accessible à tous, quel que soit l’âge ou le physique, il est également adapté aux enfants car ceux-ci sont aussi confrontés à des agressions, comme le racket.
+		Bien plus qu’un sport pour eux, le WingTsun leur apprend à se défendre intelligemment contre des personnes plus fortes qu’eux. L’enfant apprendra à n'utiliser le WingTsun que dans des cas extrêmes et non parce qu’un camarade de classe l’a bousculé sans intention réelle dans la cours de récréation. Bien entendu, le côté philosophique lui apprend le respect des autres élèves, de son enseignant et de lui-même et comme tout art martial, une certaine discipline et un sang-froid.
+		Le WingTsun permet à un enfant trop mince, trop gros, trop petit, de reprendre confiance en lui en se rendant compte qu’il est capable de bien plus de choses qu’il ne l’imagine. Et comme dans le WingTsun, on travaille la simultanéité des mouvements avec les bras et les jambes, ainsi qu’apprendre à se défendre tout en attaquant, c’est un art qui développe énormément la psychomotricité.
+		Arrivé à un certain niveau, l’enfant apprendra à utiliser plusieurs techniques en même temps, ce qui requiert une certaine concentration de celui-ci.
+		Pendant le cours, les enfants travaillent ensemble quel que soit le physique ou sexe ; un grand va travailler avec un petit ; une fille avec un garçon. De cette manière ils apprennent à travailler avec des personnes de différentes tailles et avec un certain respect de l’autre. On fait également un peu d’exercices physiques ce qui permet à l’enfant de garder une certaine forme et condition physique dans le respect de son corps.
+	      </p>
+	      <p>
+		En résumé, le WingTsun apporte beaucoup de choses positives aussi à un enfant, qui lui seront très utiles dans la vie de tous les jours :
+	      </p>
+	      <p>
+		- respect  /  - confiance en soi  /  - psychomotricité  /  - concentration  /  - self-control  /  - self-défense
+	      </p>
+	      <p>Voir aussi: <a href="http://www.wingtsun-junior.be">Le site du cours enfants de notre école</a></p>
+            </div>
+	    
+	  </div>
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+	  <div style="margin-bottom:20px">
+	    <img src="ressources/logo_ewto.png" class="img-responsive" alt="logo EWTO">
+	  </div>
+	  <h5>Horaires:</h5>
+	  <ul class="list-group">
+	    <li class="list-group-item">Mardi: 19:00-22:00
+	    <a href="https://www.google.be/maps/place/Centre+Namurois+des+Sports/@50.468203,4.851097,533m/data=!3m2!1e3!4b1!4m2!3m1!1s0x47c1996392ee9721:0x7906abd1951c690e?hl=fr" target="_blank"><h6>Hall Sportif Tabora - Namur</h6></a></li>
+	    <li class="list-group-item">Samedi: 14:00-17:00
+	    <a href="https://www.google.be/maps/place/Institut+Sainte+Marie+Jambes/@50.458649,4.88926,534m/data=!3m1!1e3!4m2!3m1!1s0x47c1990396174ebf:0xabbcb6a9ba052784?hl=fr" target="_blank"><h6>Institut Sainte Marie - Jambes</h6></a></li>
+	  </ul>
+	  <hr>
+	  <h5>Annonces:</h5>
+	  <p>Séminaire Siu Nim Tao:<br> 
+	  27/12: 10:30-17:00
+	  </p>
+	  Prochain(s) cours d'Escrima:
+	  <ul>
+	    <li> 28/12: 9:30-13:00</li>
+	  </ul>
+	  <hr>
+	  <h5>Contacts:</h5>
+	  Sifu R.Vaneetvelde
+	  <p><a href="mailto:wingtsun.rv@skynet.be">wingtsun.rv@skynet.be</a><br>
+	    +32 (0)478 64 31 71</p>
+	  <img class="img-responsive" src="ressources/WT_logo.jpeg"> 
+        </div><!--/.sidebar-offcanvas-->
+      </div><!--/row-->
+
+      <hr>
+      <footer>
+        <p>2014 - Organisation Wallone et Luxembourgeoise de Wing Tsun (OWLWT)</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./test_files/jquery.min.js"></script>
+    <script src="./test_files/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./test_files/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="./test_files/offcanvas.js"></script>
+  
+
+</body></html>
