@@ -102,6 +102,7 @@
 	  Sifu R.Vaneetvelde
 	  <p><a href="mailto:wingtsun.rv@skynet.be">wingtsun.rv@skynet.be</a><br>
 	    +32 (0)478 64 31 71</p>
+	  <img class="img-responsive" src="ressources/WT_logo.jpeg"> 
         </div><!--/.sidebar-offcanvas-->
       </div><!--/row-->
 
@@ -166,7 +167,25 @@
                       start: '2014-12-28T09:30:00',
                       end: '2014-12-28T13:00:00',
                       description: ' '
-                  },
+                   },
+                   {
+                      title: 'Stage pour 2ème technicien (Puttlingen)',
+                      start: '2014-11-30T09:30:00',
+                      end: '2014-11-30T12:00:00',
+                      description: ' '
+                   },
+                   {
+                      title: 'Stage pour 9ème élève (Puttlingen)',
+                      start: '2014-12-07T09:30:00',
+                      end: '2014-12-07T12:30:00',
+                      description: ' '
+                   },
+                   {
+                      title: 'Stage pour 3ème élève (Puttlingen)',
+                      start: '2014-12-21T09:30:00',
+                      end: '2014-12-21T12:00:00',
+                      description: ' '
+                   },
               ]
           });
       });

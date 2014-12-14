@@ -65,6 +65,19 @@
           <div class="row">
             <!-- Blog Entries Column -->
             <div class="col-md-12">
+                <h1 class="page-header">Horaires et Lieux d'entraînement</h1>
+		<ul class="list-group">
+		  <li class="list-group-item">
+		    <h2>Le mardi:</h2>
+		    De 19:00 à 22:00 au <a href="https://www.google.be/maps/place/Centre+Namurois+des+Sports/@50.468203,4.851097,533m/data=!3m2!1e3!4b1!4m2!3m1!1s0x47c1996392ee9721:0x7906abd1951c690e?hl=fr" target="_blank">Hall Sportif de Tabora</a> (dojo au sous sol) à Namur.
+		    
+		    <h2>Le Samedi:</h2>
+		    <p>De 14:00 à 17:00 à l'<a href="https://www.google.be/maps/place/Institut+Sainte+Marie+Jambes/@50.458649,4.88926,534m/data=!3m1!1e3!4m2!3m1!1s0x47c1990396174ebf:0xabbcb6a9ba052784?hl=fr" target="_blank">Institut Sainte Marie</a> à Jambes.</p>
+		    <p>Cours avancés proposés après 17:00.</p>
+		</ul>
+            </div>
+	    <!-- Blog Entries Column -->
+            <div class="col-md-12">
                 <h1 class="page-header">Tarifs</h1>
 		<ul class="list-group">
 		  <li class="list-group-item">
@@ -79,7 +92,7 @@
 		    <h2>Cours d'Escrima</h2>
 		    <h6>Abonnement:</h6>
 		    <ul>
-		      <li>30€ / trimestre pour un étudiant</li>
+		      <li>30€ / trimestre</li>
 		    </ul>
 		  <li class="list-group-item">
 		    <h2>Assurance</h2>

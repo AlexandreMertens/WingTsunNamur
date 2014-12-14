@@ -16,6 +16,9 @@
     <link href="css/offcanvas.css" Rel="stylesheet">
     <script src="./test_files/ie-emulation-modes-warning.js"></script>
 
+    <link href="./lightbox/ekko-lightbox.css" rel="stylesheet">
+    <link href="themes/dark.css" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -76,7 +79,10 @@
           <div class="row">
             <div class="col-md-4 portfolio-item">
 	      <div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/WqK2IlP-JSE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<a href="http://www.youtube.com/watch?v=WqK2IlP-JSE" data-toggle="lightbox">
+		  <img src="//i1.ytimg.com/vi/WqK2IlP-JSE/mqdefault.jpg" class="img-responsive">
+		  <!--<iframe class="embed-responsive-item" src="//www.youtube.com/embed/WqK2IlP-JSE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+		</a>
 	      </div>
               <h3>
 		<a href="#">Film Promotionnel de l'EWTO</a>
@@ -173,5 +179,15 @@
 
     <script src="./test_files/offcanvas.js"></script>
   
-
+    <!-- lightbox dependencies for enlarged images-->
+    <script src="./lightbox/ekko-lightbox.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+          $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+	      event.preventDefault();
+              return $(this).ekkoLightbox();
+          });
+      });
+    </script>
+    
 </body></html>
